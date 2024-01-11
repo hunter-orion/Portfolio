@@ -1,5 +1,6 @@
-import { Grid, GridItem, Hide, Show } from "@chakra-ui/react";
+import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
+import { AboutMe } from "./components/AboutMe";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </Show>
 
       <GridItem area={"main"} bg="blue">
-        main
+        <AboutMe />
       </GridItem>
     </Grid>
   );
