@@ -19,6 +19,7 @@ export const AboutMe = () => {
         overflow="hidden"
         padding={5}
         marginTop={100}
+        marginBottom={50}
       >
         <Stack>
           <Center>
