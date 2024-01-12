@@ -12,9 +12,9 @@ import ColorModeButton from "./ColorModeButton";
 
 export const AboutMe = () => {
   return (
-    <>
+    <Center>
       <Card
-        direction={{ base: "column", sm: "row" }}
+        direction={{ base: "row", sm: "row" }}
         overflow="hidden"
         padding={5}
         marginTop={100}
@@ -45,7 +45,7 @@ export const AboutMe = () => {
           </CardFooter>
         </Stack>
       </Card>
-    </>
+    </Center>
   );
 };
 
