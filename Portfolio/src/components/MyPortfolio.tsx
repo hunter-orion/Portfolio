@@ -17,7 +17,7 @@ import gameHub from "../assets/gamehub.png";
 const MyPortfolio = () => {
   return (
     <>
-      <Card marginLeft={5} marginRight={5}>
+      <Card id="projects" marginLeft={5} marginRight={5}>
         <CardBody>
           <CardHeader>
             <Heading textAlign="center">Projects</Heading>

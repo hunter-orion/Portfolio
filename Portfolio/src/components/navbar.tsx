@@ -1,4 +1,5 @@
 import {
+  Button,
   Flex,
   HStack,
   Image,
@@ -20,10 +21,28 @@ const NavBar = () => {
       <Spacer />
       <Flex as="nav">
         <List display="flex" alignItems="center" spacing="">
-          <ListItem marginRight="4">About Me</ListItem>
-          <ListItem marginRight="4">Projects</ListItem>
-          <ListItem marginRight="4">My Skills</ListItem>
-          <ListItem marginRight="4">Contact Me</ListItem>
+          <ListItem marginRight="4">
+            <Button>
+              <a href="/#projects" className="nav-link">
+                Projects
+              </a>
+            </Button>
+          </ListItem>
+          <ListItem marginRight="4">
+            <Button>
+              <a href="/#skills" className="nav-link">
+                My Skills
+              </a>
+            </Button>
+          </ListItem>
+          <ListItem marginRight="4">
+            {" "}
+            <Button>
+              <a href="/#skills" className="nav-link">
+                Contact Me
+              </a>
+            </Button>
+          </ListItem>
         </List>
       </Flex>
     </HStack>
