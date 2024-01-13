@@ -20,6 +20,7 @@ export const AboutMe = () => {
         padding={5}
         marginTop={100}
         marginBottom={50}
+        border="solid grey"
       >
         <Stack>
           <Center>

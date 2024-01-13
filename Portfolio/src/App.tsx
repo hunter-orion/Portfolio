@@ -17,7 +17,7 @@ function App() {
         </GridItem>
       </Show>
 
-      <GridItem area={"main"} bg="blue">
+      <GridItem area={"main"}>
         <AboutMe />
         <MyPortfolio />
       </GridItem>
