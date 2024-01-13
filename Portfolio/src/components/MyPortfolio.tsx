@@ -10,6 +10,7 @@ import {
   Center,
   VStack,
   Link,
+  Text,
   Box,
 } from "@chakra-ui/react";
 import cloudHost from "../assets/cloudHost.png";
@@ -41,6 +42,10 @@ const MyPortfolio = () => {
                 </CardHeader>
                 <CardBody>
                   <Image src={cloudHost} />
+                  <Text padding={5}>
+                    This was a project which utilized vanilla html/CSS with some
+                    frameworks for dynamic scrolling.
+                  </Text>
                 </CardBody>
                 <Center>
                   <CardFooter>
@@ -64,6 +69,14 @@ const MyPortfolio = () => {
                 </CardHeader>
                 <CardBody>
                   <Image src={gameHub} />
+                  <Text padding={3}>
+                    {" "}
+                    This project used React 18, Zustand, JS, TS, Axios, and
+                    Chakra-UI to create a responsive webpage that calls to rawg
+                    API. There is error handling, loading skeletons, click
+                    events, and multiple filters which send requests to the API
+                    for data, search bar, cacheing, and utilizes pagination.
+                  </Text>
                 </CardBody>
                 <Center>
                   <CardFooter>
