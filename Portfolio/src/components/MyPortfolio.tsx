@@ -42,6 +42,7 @@ const MyPortfolio = () => {
                 </CardHeader>
                 <CardBody>
                   <Image src={cloudHost} />
+
                   <Text padding={5}>
                     This was a project which utilized vanilla html/CSS with some
                     frameworks for dynamic scrolling.
