@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import { AboutMe } from "./components/AboutMe";
 import MyPortfolio from "./components/MyPortfolio";
 import Skills from "./components/Skills";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <AboutMe />
         <MyPortfolio />
         <Skills />
+        <ContactMe />
       </GridItem>
     </Grid>
   );

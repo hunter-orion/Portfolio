@@ -38,7 +38,7 @@ const NavBar = () => {
           <ListItem marginRight="4">
             {" "}
             <Button>
-              <a href="/#skills" className="nav-link">
+              <a href="/#contact-me" className="nav-link">
                 Contact Me
               </a>
             </Button>
