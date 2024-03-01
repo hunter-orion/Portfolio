@@ -36,7 +36,7 @@ const ContactMe = () => {
         </Button>
         <Button margin={3} boxSize={20}>
           <Link
-            href="fiverr.com/hunter_orion"
+            href="https://fiverr.com/hunter_orion"
             target="_blank"
             rel="noopener noreferrer"
           >
