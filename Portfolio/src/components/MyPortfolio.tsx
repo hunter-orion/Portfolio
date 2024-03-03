@@ -34,14 +34,33 @@ const MyPortfolio = () => {
               ]}
             >
               <Card border="solid grey">
-                <CardHeader>
+                <CardHeader
+                  style={{
+                    textAlign: "center",
+                    paddingBottom: "0",
+                  }}
+                >
                   <Heading size="lg" textAlign="center">
                     {" "}
                     Cloud Hosting
                   </Heading>
+                  <p
+                    style={{
+                      textAlign: "center",
+                      marginTop: "3rem",
+                    }}
+                  >
+                    Click to View
+                  </p>
                 </CardHeader>
                 <CardBody>
-                  <Image src={cloudHost} />
+                  <Link
+                    href="https://643100f4098e7e00081693de--astonishing-tarsier-b414aa.netlify.app/#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image src={cloudHost} />
+                  </Link>
 
                   <Text padding={5}>
                     This was a project which utilized vanilla html/CSS with some
@@ -49,27 +68,38 @@ const MyPortfolio = () => {
                   </Text>
                 </CardBody>
                 <Center>
-                  <CardFooter>
-                    <Link
-                      href="https://643100f4098e7e00081693de--astonishing-tarsier-b414aa.netlify.app/#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button> View here</Button>
-                    </Link>
-                  </CardFooter>
+                  <CardFooter></CardFooter>
                 </Center>
               </Card>
 
               <Card border="solid grey">
-                <CardHeader>
+                <CardHeader
+                  style={{
+                    textAlign: "center",
+                    paddingBottom: "0",
+                  }}
+                >
                   <Heading size="lg" textAlign="center">
                     {" "}
                     Game Hub
                   </Heading>
+                  <p
+                    style={{
+                      textAlign: "center",
+                      marginTop: "3rem",
+                    }}
+                  >
+                    Click to View
+                  </p>
                 </CardHeader>
                 <CardBody>
-                  <Image src={gameHub} />
+                  <Link
+                    href="https://game-hub-pied-delta.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image src={gameHub} />
+                  </Link>
                   <Text padding={3}>
                     {" "}
                     This project used React 18, Zustand, JS, TS, Axios, and
@@ -80,15 +110,7 @@ const MyPortfolio = () => {
                   </Text>
                 </CardBody>
                 <Center>
-                  <CardFooter>
-                    <Link
-                      href="https://game-hub-pied-delta.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button> View here</Button>
-                    </Link>
-                  </CardFooter>
+                  <CardFooter></CardFooter>
                 </Center>
               </Card>
             </SimpleGrid>

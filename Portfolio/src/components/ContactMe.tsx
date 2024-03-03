@@ -28,7 +28,7 @@ const ContactMe = () => {
         {" "}
         <Heading> Contact Me</Heading>
       </CardHeader>
-      <CardBody id="contact-me">
+      <CardBody id="contact-me" style={{ textAlign: "center" }}>
         <Button boxSize={20} margin={3}>
           <Link href={`mailto:${"huntercarlis@yahoo.com"}`}>
             <FaEnvelope size={50} style={{ display: "inline" }} />
