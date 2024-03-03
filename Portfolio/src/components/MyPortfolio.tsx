@@ -5,7 +5,6 @@ import {
   Heading,
   CardBody,
   CardFooter,
-  Button,
   Image,
   Center,
   VStack,
