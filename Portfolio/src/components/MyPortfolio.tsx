@@ -21,7 +21,7 @@ const MyPortfolio = () => {
       <Box id="projects" marginLeft={5} marginRight={5} marginTop={60}>
         <Heading textAlign="center">Projects</Heading>
 
-        <Center>
+        <Center display="flex" justifyContent="center" alignItems="center">
           <VStack align="center">
             <SimpleGrid
               spacing={4}
@@ -31,6 +31,7 @@ const MyPortfolio = () => {
                 "repeat(auto-fill, minmax(300px, 1fr))",
                 "repeat(auto-fill, minmax(500px, 1fr))",
               ]}
+              width="100%"
             >
               <Card border="solid grey">
                 <CardHeader
