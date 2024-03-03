@@ -55,7 +55,7 @@ const MyPortfolio = () => {
                 </CardHeader>
                 <CardBody>
                   <Link
-                    href="https://643100f4098e7e00081693de--astonishing-tarsier-b414aa.netlify.app/#"
+                    href="https://astonishing-tarsier-b414aa.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
