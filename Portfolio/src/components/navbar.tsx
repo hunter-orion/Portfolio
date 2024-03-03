@@ -12,7 +12,14 @@ import logo from "../assets/Hlogo.png";
 
 const NavBar = () => {
   return (
-    <HStack>
+    <HStack
+      position="fixed"
+      width="100%"
+      bg="gray.800"
+      color="white"
+      paddingY={2}
+      zIndex={10}
+    >
       <a href="#">
         <Image src={logo} boxSize="50px" cursor="pointer" />
       </a>
