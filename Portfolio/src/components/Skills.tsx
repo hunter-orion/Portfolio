@@ -18,6 +18,9 @@ import {
 } from "react-icons/fa";
 import TsIcon from "../assets/TsIcon.png";
 import "../CSS/Skills.css";
+import AOS from "aos";
+
+AOS.init();
 
 const Skills = () => {
   return (
@@ -28,7 +31,7 @@ const Skills = () => {
           My Skills
         </Heading>
       </CardHeader>
-      <CardBody border="solid grey">
+      <CardBody border="solid grey" data-aos="flip-up">
         <Text className="Text">
           <FaJs size={30} style={{ display: "inline", marginRight: "5px" }} />{" "}
           JavaScript

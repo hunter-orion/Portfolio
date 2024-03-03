@@ -14,6 +14,9 @@ import {
 } from "@chakra-ui/react";
 import cloudHost from "../assets/cloudHost.png";
 import gameHub from "../assets/gamehub.png";
+import AOS from "aos";
+
+AOS.init();
 
 const MyPortfolio = () => {
   return (
@@ -33,7 +36,7 @@ const MyPortfolio = () => {
               ]}
               width="100%"
             >
-              <Card border="solid grey">
+              <Card border="solid grey" data-aos="fade-right">
                 <CardHeader
                   style={{
                     textAlign: "center",
@@ -72,7 +75,7 @@ const MyPortfolio = () => {
                 </Center>
               </Card>
 
-              <Card border="solid grey">
+              <Card border="solid grey" data-aos="fade-left">
                 <CardHeader
                   style={{
                     textAlign: "center",

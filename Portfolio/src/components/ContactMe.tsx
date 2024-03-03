@@ -10,6 +10,9 @@ import {
 } from "@chakra-ui/react";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 import fiverrLogo from "../assets/fiverLogo.avif";
+import AOS from "aos";
+
+AOS.init();
 
 const ContactMe = () => {
   return (
@@ -28,7 +31,11 @@ const ContactMe = () => {
         {" "}
         <Heading> Contact Me</Heading>
       </CardHeader>
-      <CardBody id="contact-me" style={{ textAlign: "center" }}>
+      <CardBody
+        id="contact-me"
+        style={{ textAlign: "center" }}
+        data-aos="fade-up"
+      >
         <Button boxSize={20} margin={3}>
           <Link href={`mailto:${"huntercarlis@yahoo.com"}`}>
             <FaEnvelope size={50} style={{ display: "inline" }} />
