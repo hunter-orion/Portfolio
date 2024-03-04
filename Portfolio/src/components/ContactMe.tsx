@@ -35,6 +35,7 @@ const ContactMe = () => {
         id="contact-me"
         style={{ textAlign: "center" }}
         data-aos="fade-up"
+        data-aos-duration="2000"
       >
         <Button boxSize={20} margin={3}>
           <Link href={`mailto:${"huntercarlis@yahoo.com"}`}>
