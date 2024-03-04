@@ -8,7 +8,7 @@ import {
   Link,
   Text,
 } from "@chakra-ui/react";
-import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 import fiverrLogo from "../assets/fiverLogo.avif";
 import AOS from "aos";
 
@@ -62,6 +62,15 @@ const ContactMe = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin size={50} style={{ display: "inline" }} />
+          </Link>
+        </Button>
+        <Button margin={3} boxSize={20}>
+          <Link
+            href="https://github.com/hunter-orion"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={50} style={{ display: "inline" }} />
           </Link>
         </Button>
       </CardBody>
