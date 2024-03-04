@@ -3,6 +3,7 @@ import {
   Flex,
   HStack,
   Image,
+  Link,
   List,
   ListItem,
   Spacer,
@@ -29,26 +30,20 @@ const NavBar = () => {
       <Flex as="nav">
         <List display="flex" alignItems="center" spacing="">
           <ListItem marginRight="4">
-            <Button>
-              <a href="/#projects" className="nav-link">
-                Projects
-              </a>
-            </Button>
+            <Link href="#projects" className="nav-link">
+              <Button>Projects</Button>
+            </Link>
           </ListItem>
+          <Link href="#skills" className="nav-link">
+            <ListItem marginRight="4">
+              <Button>My Skills</Button>
+            </ListItem>
+          </Link>
           <ListItem marginRight="4">
-            <Button>
-              <a href="/#skills" className="nav-link">
-                My Skills
-              </a>
-            </Button>
-          </ListItem>
-          <ListItem marginRight="4">
-            {" "}
-            <Button>
-              <a href="/#contact-me" className="nav-link">
-                Contact Me
-              </a>
-            </Button>
+            <Link href="#contact-me" className="nav-link">
+              {" "}
+              <Button>Contact Me</Button>
+            </Link>
           </ListItem>
         </List>
       </Flex>
