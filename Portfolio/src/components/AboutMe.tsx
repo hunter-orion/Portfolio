@@ -39,7 +39,7 @@ export const AboutMe = () => {
             <Center>
               <Text fontSize="1.2rem" py="2">
                 I'm a front end developer who loves creating beautiful,
-                responsive, and search engine optamized websites.
+                responsive, and search engine optimized websites.
               </Text>
             </Center>
           </CardBody>
