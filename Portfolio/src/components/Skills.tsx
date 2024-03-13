@@ -26,7 +26,7 @@ AOS.init();
 
 const Skills = () => {
   return (
-    <Card id="skills" align="center" paddingTop={10}>
+    <Card id="skills" align="center" paddingTop={10} overflow="hidden">
       <CardHeader paddingBottom={20}>
         <Heading size="xl">
           <FaCode size={40} style={{ display: "inline", marginRight: "5px" }} />{" "}

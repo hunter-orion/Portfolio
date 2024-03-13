@@ -21,7 +21,15 @@ AOS.init();
 const MyPortfolio = () => {
   return (
     <>
-      <Box id="projects" marginLeft={5} marginRight={5} marginTop={60}>
+      <Box
+        id="projects"
+        marginLeft={5}
+        marginRight={5}
+        marginTop={60}
+        maxWidth="95%"
+        height="auto"
+        overflow="hidden"
+      >
         <Heading textAlign="center">Projects</Heading>
 
         <Center display="flex" justifyContent="center" alignItems="center">

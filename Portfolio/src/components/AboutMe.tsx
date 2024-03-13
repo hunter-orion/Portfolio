@@ -21,6 +21,7 @@ export const AboutMe = () => {
         marginTop={100}
         marginBottom={50}
         border="solid grey"
+        maxWidth="95%"
       >
         <Stack>
           <Center>
