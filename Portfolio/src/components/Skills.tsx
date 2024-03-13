@@ -6,7 +6,6 @@ import {
   CardFooter,
   Text,
   SimpleGrid,
-  Flex,
 } from "@chakra-ui/react";
 import {
   FaJs,
