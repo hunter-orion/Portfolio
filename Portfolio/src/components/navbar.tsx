@@ -20,6 +20,7 @@ const NavBar = () => {
       color="white"
       paddingY={2}
       zIndex={10}
+      overflow="hidden"
     >
       <a href="#">
         <Image src={logo} boxSize="50px" cursor="pointer" />

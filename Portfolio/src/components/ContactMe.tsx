@@ -22,7 +22,7 @@ const ContactMe = () => {
       paddingBottom={30}
       marginLeft="20vw"
       marginTop={40}
-      marginRight="20vw"
+      marginRight="25vw"
       marginBottom={10}
       border="solid grey"
       style={{ background: "" }}

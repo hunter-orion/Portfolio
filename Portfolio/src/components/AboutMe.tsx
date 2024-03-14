@@ -20,8 +20,9 @@ export const AboutMe = () => {
         padding={5}
         marginTop={100}
         marginBottom={50}
+        marginRight={3}
         border="solid grey"
-        maxWidth="95%"
+        scrollBehavior="smooth"
       >
         <Stack>
           <Center>

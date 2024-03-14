@@ -23,10 +23,9 @@ const MyPortfolio = () => {
     <>
       <Box
         id="projects"
-        marginLeft={5}
+        marginLeft={2}
         marginRight={5}
         marginTop={60}
-        maxWidth="95%"
         height="auto"
         overflow="hidden"
       >
@@ -64,7 +63,7 @@ const MyPortfolio = () => {
                     Click to View
                   </p>
                 </CardHeader>
-                <CardBody>
+                <CardBody paddingLeft={2}>
                   <Link
                     href="https://astonishing-tarsier-b414aa.netlify.app/"
                     target="_blank"
@@ -103,7 +102,7 @@ const MyPortfolio = () => {
                     Click to View
                   </p>
                 </CardHeader>
-                <CardBody>
+                <CardBody marginRight={3}>
                   <Link
                     href="https://game-hub-pied-delta.vercel.app/"
                     target="_blank"
